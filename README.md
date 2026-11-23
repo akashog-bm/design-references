@@ -7,7 +7,7 @@ A Claude Code skill for design and prototype work. Before building or improving 
 Paste this into Claude Code or Codex (ChatGPT's coding agent):
 
 ```
-Install the design-references skill from https://github.com/akashogext/design-references for me.
+Install the design-references skill from https://github.com/akashog-bm/design-references for me.
 
 1. Find out which agent you are and pick the skills folder:
    - Claude Code: ~/.claude/skills/design-references
@@ -32,13 +32,13 @@ This works in coding agents that can write files on your computer. The ChatGPT a
 With the skills CLI:
 
 ```
-npx skills add akashogext/design-references
+npx skills add akashog-bm/design-references
 ```
 
 Or by hand:
 
 ```
-git clone https://github.com/akashogext/design-references
+git clone https://github.com/akashog-bm/design-references
 cp -r design-references/skills/design-references ~/.claude/skills/
 ```
 
